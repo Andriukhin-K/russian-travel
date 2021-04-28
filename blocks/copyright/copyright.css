@@ -1,4 +1,4 @@
-.footer__copyright {
+.copyright {
     color: #FFFFFF;
     margin: 0;
     font-family: inter, Arial, Helvetica, sans-serif;
@@ -9,7 +9,7 @@
 }
 
 @media all and (max-width: 320px) {
-    .footer__copyright {
+    .copyright {
         font-family: inter;
         font-weight: 400;
         font-style: normal;

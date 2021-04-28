@@ -15,6 +15,12 @@
     }
 } 
 
+@media all and (max-width: 640px) {
+    .cover {
+        padding: 66px 0 64px 0;       
+    }
+}
+
 @media all and (max-width: 320px) {
     .cover {
         padding: 66px 0 64px 0;       

@@ -11,6 +11,17 @@
     margin: 0 0 32px 0;
 }
 
+@media all and (max-width: 640px) {
+    .cover__title {
+        max-width: fit-content;
+        font-family: inter;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 32px;
+        line-height: 35px;       
+    }
+}
+
 @media all and (max-width: 320px) {
     .cover__title {
         max-width: fit-content;

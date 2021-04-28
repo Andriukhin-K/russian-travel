@@ -1,4 +1,4 @@
-.header__link_lang-en {
+.header__link_lang_en {
     color: #FFFFFF;
     text-decoration: none;
     font-family: inter;
@@ -6,8 +6,16 @@
     font-weight: 400;
 }
 
+@media all and (max-width: 640px) {
+    .header__link_lang_en {
+        font-family: inter;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
 @media all and (max-width: 320px) {
-    .header__link_lang-en {
+    .header__link_lang_en {
         font-family: inter;
         font-size: 18px;
         font-weight: 400;
