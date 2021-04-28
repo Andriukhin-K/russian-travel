@@ -4,20 +4,17 @@
     font-family: inter;
     font-size: 24px;
     font-weight: 400;
+    font-style: normal;
 }
 
 @media all and (max-width: 640px) {
     .header__link_lang_en {
-        font-family: inter;
         font-size: 18px;
-        font-weight: 400;
     }
 }
 
 @media all and (max-width: 320px) {
     .header__link_lang_en {
-        font-family: inter;
         font-size: 18px;
-        font-weight: 400;
     }
 }
