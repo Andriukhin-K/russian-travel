@@ -33,6 +33,18 @@
     }
 } 
 
+@media all and (max-width: 640px) {
+    .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        gap: 12px;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        margin: 64px 16px 0 16px;
+    }
+}
+
 @media all and (max-width: 320px) {
     .photo-grid {
         display: grid;
