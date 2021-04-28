@@ -1,0 +1,17 @@
+.intro__text {
+    font-family: inter, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26.08px;
+    color: #FFFFFF;
+    margin: 40px auto 33px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+@media all and (max-width: 320px) {
+    .intro__text {
+        align-items:flex-start;        
+    }
+}

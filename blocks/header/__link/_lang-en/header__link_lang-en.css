@@ -1,0 +1,15 @@
+.header__link_lang-en {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+@media all and (max-width: 320px) {
+    .header__link_lang-en {
+        font-family: inter;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}

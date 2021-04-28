@@ -1,0 +1,9 @@
+.header__logo {
+    background-image: url(../images/header-logo.svg);
+}
+
+@media all and (max-width: 320px) {
+    .header__logo {
+        max-width: 142px;
+    }
+}

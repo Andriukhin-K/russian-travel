@@ -1,0 +1,17 @@
+.place__website_link {
+    text-decoration: underline;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.place__website_link:hover {
+    opacity: 0.8; 
+    transition-duration: 2s;
+}
