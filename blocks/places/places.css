@@ -1,7 +1,6 @@
 .places {
-    margin: 91px auto 0 148px;
-    max-width: 984px;
-    min-height: 100%;
+    margin: 91px 148px 0;
+    max-width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, minmax(min-content, max-content));
@@ -11,8 +10,8 @@
 
 @media all and (max-width: 1024px) {
     .places {
-        margin: 92px auto 0 48px;
-        max-width: 928px;
+        margin: 92px 48px 0;
+        max-width: 100%;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, minmax(min-content, max-content));
         row-gap: 80px;
@@ -21,18 +20,28 @@
 
 @media all and (max-width: 768px) {
     .places {
-        margin: 88px auto 0 24px;
-        max-width: 720px;
+        margin: 88px 24px 0;
+        max-width: 100%;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, minmax(min-content, max-content));
         row-gap: 73px;      
     }
 } 
 
+@media all and (max-width: 640px) {
+    .places {
+        margin: 64px auto 0 0;
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, minmax(min-content, max-content));
+        row-gap: 50px;        
+    }
+}
+
 @media all and (max-width: 320px) {
     .places {
-        margin: 64px auto 0 auto;
-        max-width: 320px;
+        margin: 64px auto 0 0;
+        max-width: 100%;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, minmax(min-content, max-content));
         row-gap: 50px;        
