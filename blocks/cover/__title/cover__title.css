@@ -16,10 +16,3 @@
         line-height: 35px;       
     }
 }
-
-@media all and (max-width: 320px) {
-    .cover__title {
-        font-size: 32px;
-        line-height: 35px;       
-    }
-}

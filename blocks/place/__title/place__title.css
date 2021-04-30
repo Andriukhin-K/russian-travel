@@ -18,6 +18,7 @@
 
 @media all and (max-width: 768px) {
     .place__title {
+        max-width: 340px;
         font-size: 42px;
         line-height: 46px;    
     }
@@ -25,14 +26,7 @@
 
 @media all and (max-width: 640px) {
     .place__title {
-        margin: 0 0 0 16px;
-        font-size: 32px;
-        line-height: 35px;       
-    }
-}
-
-@media all and (max-width: 320px) {
-    .place__title {
+        max-width: 288px;
         margin: 0 0 0 16px;
         font-size: 32px;
         line-height: 35px;       

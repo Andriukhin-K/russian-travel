@@ -1,4 +1,4 @@
-.website__link {
+.place__link {
     text-decoration: underline;
     margin: 0;
     max-width: 100%;
@@ -11,7 +11,7 @@
     color: #FFFFFF;
 }
 
-.website__link:hover {
+.place__link:hover {
     opacity: 0.8;
     transition-duration: 2s;
 }

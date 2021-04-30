@@ -1,12 +1,17 @@
-.website__url {
+.place__url {
     margin: 0 0 12px 0;
     max-width: fit-content;
-    height: auto;
     font-family: inter, Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 1.7;
     color: #AAAAAA;
     letter-spacing: 0.2em;
 }
+
+@media all and (max-width: 768px) {
+    .place__url {
+        line-height: 12px;
+    }    
+} 

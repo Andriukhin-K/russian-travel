@@ -1,5 +1,5 @@
 .lead {
-    width: calc(100% - 200px);
+    width: calc(100% - 296px);
     margin: 0 auto;
     box-sizing: border-box;
     display: flex;
@@ -14,12 +14,6 @@
 } 
 
 @media all and (max-width: 768px) {
-    .lead {
-        width: calc(100%);
-    }
-} 
-
-@media all and (max-width: 320px) {
     .lead {
         width: calc(100%);
     }

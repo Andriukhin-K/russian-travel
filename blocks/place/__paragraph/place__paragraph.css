@@ -9,9 +9,3 @@
         margin: 0 16px 0 16px;      
     }
 }
-
-@media all and (max-width: 320px) {
-    .place__paragraph {
-        margin: 0 16px 0 16px;      
-    }
-}
