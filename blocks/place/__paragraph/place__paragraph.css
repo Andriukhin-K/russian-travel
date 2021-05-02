@@ -1,8 +1,14 @@
 .place__paragraph {
     margin: 0;
-    max-width: 484px;
+    max-width: 100%;
     grid-area: paragraph;
 }
+
+@media all and (max-width: 921px) {
+    .place {
+        row-gap: 28px;     
+    }
+} 
 
 @media all and (max-width: 640px) {
     .place__paragraph {

@@ -8,13 +8,13 @@
     flex-direction: column;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1200px) {
     .places {
         margin: 92px 48px 0;
     }
 } 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 978px) {
     .places {
         margin: 88px 24px 0;
         row-gap: 73px;      

@@ -1,0 +1,9 @@
+.header__link {
+    height: 52px;
+}
+
+@media all and (max-width: 320px) {
+    .header__link {
+        height: 42px;
+    }
+}

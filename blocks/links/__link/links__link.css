@@ -25,8 +25,4 @@
         line-height: 24px;
         margin: 0 0 32px 0;      
     }
-    
-    .links__link:nth-of-type(5) {
-        margin: 0;
-    }
 }
