@@ -1,6 +1,7 @@
 .intro {
-    width: calc(100% - 590px);
+    width: calc(100% - 574px);
     margin: 0 auto;
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
