@@ -4,13 +4,7 @@
     grid-area: paragraph;
 }
 
-@media all and (max-width: 921px) {
-    .place {
-        row-gap: 28px;     
-    }
-} 
-
-@media all and (max-width: 640px) {
+@media all and (max-width: 720px) {
     .place__paragraph {
         margin: 0 16px 0 16px;      
     }

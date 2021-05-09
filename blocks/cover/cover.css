@@ -1,6 +1,6 @@
 .cover {
     max-width: 100%;
-    padding: 92px 48px;
+    padding: 93px 48px;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -14,12 +14,12 @@
 
 @media all and (max-width: 768px) {
     .cover { 
-        padding: 90px 0 88px 0;
+        padding: 94px 0 88px 0;
     }
 } 
 
-@media all and (max-width: 640px) {
+@media all and (max-width: 540px) {
     .cover {
-        padding: 66px 0 64px 0;       
+        padding: 66px 0 62px 0;       
     }
 }

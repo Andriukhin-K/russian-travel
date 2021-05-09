@@ -21,9 +21,9 @@
     }
 } 
 
-@media all and (max-width: 640px) {
+@media all and (max-width: 540px) {
     .cover__link {
-        padding: 33px 16px;     
+        padding: 38px 16px;     
     }
 }
 

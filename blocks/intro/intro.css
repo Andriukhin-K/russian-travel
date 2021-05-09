@@ -1,5 +1,5 @@
 .intro {
-    width: calc(100% - 574px);
+    width: calc(100% - 296px);
     margin: 0 auto;
     
     display: flex;
@@ -19,7 +19,7 @@
     }
 } 
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 540px) {
     .intro {
         width: calc(100% - 32px);      
     }

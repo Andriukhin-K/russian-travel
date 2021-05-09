@@ -12,13 +12,13 @@
     }
 } 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 920px) {
     .place__image {
         max-width: 340px;     
     }
 } 
 
-@media all and (max-width: 640px) {
+@media all and (max-width: 720px) {
     .place__image {
         max-width: 100%;     
     }

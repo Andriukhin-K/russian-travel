@@ -9,3 +9,9 @@
     object-fit: cover;
     display: block;
 }
+
+/* @media all and (max-width: 720px) {
+    .cover__image {
+        max-height: 200px;
+    }
+} */
